@@ -11,9 +11,12 @@ El proyecto combina el desarrollo de algoritmos lógicos en Python, control de f
 
 El trabajo está estructurado en tres programas principales independientes, diseñados bajo buenas prácticas de modularización y robustez:
 
-* **`punto1.py` (Validación de Primos):** Algoritmo matemático con ciclo iterativo y bloque `try/except` para capturar fallos de tipo `ValueError` ante ingresos inválidos.
-* **`punto2.py` (Ecuaciones Cuadráticas):** Función basada en la fórmula de Bhaskara. Evalúa el discriminante para bifurcar el flujo lógico y previene el error crítico de división por cero (`ZeroDivisionError`).
-* **`punto3.py` (Suite de Pruebas Automatizadas):** En desarrollo.
+* **`punto1.py` (Validación de Números Primos):** Algoritmo matemático para la detección y validación de números primos. Cuenta con manejo de excepciones para inputs inválidos.
+* **`punto2.py` (Ecuaciones Cuadráticas):** Calculadora de raíces cuadradas utilizando la fórmula de Bhaskara, también conocida como fórmula resolvente. Implementa modularización mediante funciones, evaluación de casos límite (división por cero) y cálculo de discriminante.
+* **`punto3` (Suite de Pruebas Automatizadas E2E y API):** Framework de automatización construido con Python, Pytest y Selenium WebDriver. 
+* **Testing Web (SauceDemo):** Cobertura de flujos End-to-End (Happy Paths y Testing Negativo), validación dinámica del DOM, manejo de esperas (Timeouts), aislamiento de estado (limpieza de caché/Local Storage) y aserciones matemáticas.
+* **Reporting:** Generación automática de reportes de ejecución interactivos en HTML mediante `pytest-html`.
+
 
 ## 💻 Instrucciones de Ejecución
 
