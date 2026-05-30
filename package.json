@@ -1,0 +1,23 @@
+{
+  "name": "tfi_m3_untref_nicolaspannunzio",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene las resoluciones correspondientes al Trabajo Final Integrador del Módulo 3 de la **Diplomatura en Control de Calidad de Software** dictada por la UNTREF.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaspannunzio/UNTREF_Modulo_III_EntregaFinal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaspannunzio/UNTREF_Modulo_III_EntregaFinal/issues"
+  },
+  "homepage": "https://github.com/nicolaspannunzio/UNTREF_Modulo_III_EntregaFinal#readme",
+  "devDependencies": {
+    "cypress": "^15.16.0"
+  }
+}

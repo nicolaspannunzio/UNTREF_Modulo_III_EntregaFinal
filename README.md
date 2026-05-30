@@ -5,6 +5,9 @@ Este repositorio contiene las resoluciones correspondientes al Trabajo Final Int
 El proyecto combina el desarrollo de algoritmos lógicos en Python, control de flujos, manejo de excepciones y la arquitectura de pruebas automatizadas.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
 ![QA Automation](https://img.shields.io/badge/QA_Automation-239120?style=for-the-badge&logo=testing-library&logoColor=white)
 
 ## 🎯 Estructura y Detalle del Proyecto
@@ -16,7 +19,7 @@ El trabajo está estructurado en tres programas principales independientes, dise
 * **`punto3` (Suite de Pruebas Automatizadas E2E y API):** Framework de automatización construido con Python, Pytest y Selenium WebDriver. 
 * **Testing Web (SauceDemo):** Cobertura de flujos End-to-End (Happy Paths y Testing Negativo), validación dinámica del DOM, manejo de esperas (Timeouts), aislamiento de estado (limpieza de caché/Local Storage) y aserciones matemáticas.
 * **Reporting:** Generación automática de reportes de ejecución interactivos en HTML mediante `pytest-html`.
-
+* **Testing de API (PokeAPI):** Construido con JavaScript, Node.js y Cypress. Ejecución de peticiones HTTP (GET), parseo de respuestas JSON y validación estricta de variables de estado y parámetros.
 
 ## 💻 Instrucciones de Ejecución
 
