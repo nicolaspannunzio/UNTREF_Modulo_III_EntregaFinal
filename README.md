@@ -17,19 +17,40 @@ El trabajo está estructurado en tres programas principales independientes, dise
 * **`punto1.py` (Validación de Números Primos):** Algoritmo matemático para la detección y validación de números primos. Cuenta con manejo de excepciones para inputs inválidos.
 * **`punto2.py` (Ecuaciones Cuadráticas):** Calculadora de raíces cuadradas utilizando la fórmula de Bhaskara, también conocida como fórmula resolvente. Implementa modularización mediante funciones, evaluación de casos límite (división por cero) y cálculo de discriminante.
 * **`punto3` (Suite de Pruebas Automatizadas E2E y API):** Framework de automatización construido con Python, Pytest y Selenium WebDriver. 
-* **Testing Web (SauceDemo):** Cobertura de flujos End-to-End (Happy Paths y Testing Negativo), validación dinámica del DOM, manejo de esperas (Timeouts), aislamiento de estado (limpieza de caché/Local Storage) y aserciones matemáticas.
+* **Testing Web (SauceDemo):** Cobertura de flujos End-to-End (Happy Paths y Testing Negativo), validación dinámica del DOM, manejo de esperas (Timeouts), aislamiento de estado (limpieza de caché/Local Storage).
 * **Reporting:** Generación automática de reportes de ejecución interactivos en HTML mediante `pytest-html`.
 * **Testing de API (PokeAPI):** Construido con JavaScript, Node.js y Cypress. Ejecución de peticiones HTTP (GET), parseo de respuestas JSON y validación estricta de variables de estado y parámetros.
+* **`TFI-M3-UNTREF-INFORME_NicolasPannunzio.pdf` - Informe Técnico:** Documentación formal voluntaria que detalla paso a paso la arquitectura del entorno híbrido, análisis del DOM, justificación de localizadores, manejo de excepciones y las conclusiones del proyecto.
+
 
 ## 💻 Instrucciones de Ejecución
 
-Para probar los scripts locales, cloná el repositorio, navegá hacia la carpeta raíz y ejecutá los archivos directamente desde tu terminal:
+Para probar tanto los scripts lógicos como las suites de automatización en tu entorno local, seguí estos pasos:
 
+### 1. Clonar el repositorio y acceder 
 ```bash
-git clone [https://github.com/nicolaspannunzio/UNTREF_Modulo_III_EntregaFinal.git](https://github.com/nicolaspannunzio/UNTREF_Modulo_III_EntregaFinal.git)
-cd UNTREF_Modulo_III_EntregaFinal
+ git clone [https://github.com/nicolaspannunzio/UNTREF_Modulo_III_EntregaFinal.git](https://github.com/nicolaspannunzio/UNTREF_Modulo_III_EntregaFinal.git) 
+ cd UNTREF_Modulo_III_EntregaFinal
+
+# Activar el entorno virtual (en Windows)
+.\venv\Scripts\activate
+
+# Instalar dependencias del proyecto
+pip install -r requirements.txt
+
+# Ejecutar scripts lógicos locales
 python punto1.py
 python punto2.py
+
+# Ejecutar la suite de pruebas web y generar el reporte HTML
+pytest
+ 
+ # Instalar los módulos de Node necesarios (node_modules)
+npm install
+
+# Abrir el entorno gráfico de Cypress (Test Runner)
+npx cypress open
+
 ```
 
 ## 👨‍🏫 Docente
